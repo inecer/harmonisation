@@ -1,0 +1,15 @@
+{
+    "name": "ilian/harmonisation",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rxsengan",
+            "email": "iliannecer93@gmail.com"
+        }
+    ],
+    "require": {}
+}
