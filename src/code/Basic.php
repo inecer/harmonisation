@@ -4,9 +4,22 @@ namespace app\code;
 
 class Basic
 {
-    public String $name; //Peut etre utilisé avec les autres classe
-    private String $structure; //Utilisable seulement par la classe
-    protected String $compilation;
+    public string $name; //Peut etre utilisé avec les autres classe
+    private string $structure; //Utilisable seulement par la classe
+    protected string $compilation;
+
+    /**
+     * @param string $name
+     * @param string $structure
+     * @param string $compilation
+     */
+    public function __construct(string $name, string $structure, string $compilation)
+    {
+        $this->name = $name;
+        $this->structure = $structure;
+        $this->compilation = $compilation;
+    }
+
 
     /**
      * @return mixed
